@@ -1,4 +1,4 @@
-# Algorithmic Arena
+# All Meteors Must Die!
 
 A two-level 1280 × 720 space shooter implemented with TypeScript and PixiJS.
 
@@ -28,11 +28,4 @@ Open the displayed local URL. Use **Arrow Left / Arrow Right** to move and **Spa
 - `algorithms.ts` contains pure reusable algorithms: AABB intersection, range clamping, and deterministic row distribution.
 
 Collision detection uses axis-aligned bounding boxes. With `P` active player projectiles, `A` asteroids, and `E` enemy projectiles, the straightforward collision pass is `O(P × (A + E))`. The intentionally small entity caps keep this predictable; a spatial grid would be the natural extension for hundreds of entities.
-
-## Verification
-
-```bash
-npm test
-npm run lint
-```
 
