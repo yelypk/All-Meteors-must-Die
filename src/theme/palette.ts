@@ -1,0 +1,50 @@
+export const colors = {
+  game: {
+    background: 0x080b14,
+  },
+  player: {
+    body: 0xffcf4b,
+    bodyStroke: 0xf39c12,
+    support: 0x2ecc71,
+    supportStroke: 0x007c21,
+    window: 0x1297e0,
+    windowStroke: 0x0067b0,
+  },
+  bullet: {
+    player: 0x8dff63,
+    boss: 0xff3b4f,
+  },
+  asteroid: {
+    fill: 0x30343c,
+    stroke: 0xb8bec8,
+    crater: 0x777d87,
+  },
+  boss: {
+    body: 0x7b45d6,
+    bodyStroke: 0xd2b9ff,
+    cockpit: 0x253c67,
+    cockpitStroke: 0x65c9ff,
+    lights: 0xffd34d,
+    cannon: 0xe44d75,
+    healthBackground: 0x252a34,
+    healthHigh: 0x53db75,
+    healthMedium: 0xffca4b,
+    healthLow: 0xff5252,
+    healthStroke: 0xffffff,
+  },
+  hud: {
+    text: 0xffffff,
+    warning: 0xff5252,
+  },
+  result: {
+    overlay: 0x02040a,
+    panel: 0x101722,
+    panelStroke: 0x73839a,
+    description: 0xd4d9e2,
+    button: 0x2474d8,
+    buttonHover: 0x3b8cff,
+    buttonText: 0xffffff,
+    win: 0x5ee68a,
+    lose: 0xff6262,
+  },
+} as const;
